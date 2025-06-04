@@ -5,4 +5,4 @@ def longest_string(*strings):
             longest = s
     return longest
 
-print(longest_string("cat", "elephant", "dog"))  # Output: "elephant" 
+print(longest_string("cat", "elephant", "dog")) 
