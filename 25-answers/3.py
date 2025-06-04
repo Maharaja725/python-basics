@@ -2,7 +2,7 @@
 #    Input: name="John", marks=85, subject="Math"
 #    Output: "Report Card\nName: John\nSubject: Math\nMarks: 85"
 
-def report_card(**kwargs):
-    return f"Report Card\nName: {kwargs['name']}\nSubject: {kwargs['subject']}\nMarks: {kwargs['marks']}"
+def report_card(name, subject, marks):
+    return f"Report Card\nName: {name}\nSubject: {subject}\nMarks: {marks}"
 
-print(report_card(name="John", marks=85, subject="Math"))  
+print(report_card("John", "Math", 85))   
