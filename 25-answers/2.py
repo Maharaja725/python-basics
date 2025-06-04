@@ -1,5 +1,8 @@
-# 2. Write a function that accepts a variable number of string arguments and returns the longest string.
 def longest_string(*strings):
-    return max(strings, key=len)
+    longest = ""
+    for s in strings:
+        if len(s) > len(longest):
+            longest = s
+    return longest
 
-print(longest_string("cat", "elephant", "dog"))  # Output: "elephant"
+print(longest_string("cat", "elephant", "dog"))  # Output: "elephant" 
