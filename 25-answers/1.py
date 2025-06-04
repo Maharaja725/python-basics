@@ -1,4 +1,7 @@
 # 1. Write a function that takes a list of numbers and returns the sum of only the prime numbers.
+#    Input: [2, 4, 5, 6, 7]
+#    Output: 14
+
 def is_prime(n):
     if n < 2:
         return False
